@@ -4,7 +4,7 @@
 }
 body {
     background-color: rgb(233, 248, 248);
-    height: 100%;
+   
 }
 .card{
     background-color: black;
@@ -17,8 +17,47 @@ h5{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    justify-content: space-between;
+    gap: 10px;
 }
+
 #all{
     margin-top: 50px;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width:576px){
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .card-body{
+        width: 30px;
+    }
+    
+}
+@media only screen and (max-width:1451px){
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-body{
+        width: 150px;
+    }
+    
+}
+/* @media only screen and (max-width: 500px){
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-body{
+        width: 150px;
+    }
+    
+        
+    
+    
+} */
