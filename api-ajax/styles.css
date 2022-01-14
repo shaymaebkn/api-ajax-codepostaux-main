@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(233, 248, 248);
+    height: 100%;
+}
+.card{
+    background-color: black;
+    color: white;
+}
+h5{
+    color: rgb(0, 255, 221);
+}
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+#all{
+    margin-top: 50px;
+}
